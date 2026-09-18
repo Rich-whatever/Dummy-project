@@ -1,0 +1,17 @@
+use_default_settings: true
+
+server:
+  # Signing key for SearXNG's own sessions — not a third-party credential.
+  # Replace it with your own random string if you expose this instance.
+  secret_key: "ultrasecretkey"
+
+search:
+  formats:
+    - html
+    - json
+
+limiter: false
+
+botdetection:
+  ip_limit:
+    link_token: false

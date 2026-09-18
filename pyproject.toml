@@ -1,0 +1,36 @@
+# Project metadata + tool configuration.
+#
+# NOTE: intentionally has no [build-system] — this project is an application
+# run from the repository root, not a distributable package. Install its
+# dependencies with `pip install -r requirements.txt`.
+
+[project]
+name = "dummy-agent"
+version = "0.1.0"
+description = "LangGraph memory agent with a preference system, tool-using worker, and React UI"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+# Dummy_Folder is the agent's filesystem sandbox (scratch files, not project
+# source) — never lint it.
+extend-exclude = ["Dummy_Folder"]
+
+[tool.ruff.lint]
+# Tightened incrementally. Enabled so far:
+#   E9   — syntax / parse errors
+#   E402 — module import not at top of file (noqa'd where a sys.path bootstrap
+#          must run first, e.g. the manual test runners)
+#   F82  — undefined names
+#   F401 — unused imports
+#   F541 — f-string without placeholders
+#   I    — import sorting
+#   W    — whitespace warnings (trailing whitespace, missing final newline)
+# Deliberately still OFF:
+#   E501 — line length; long prompt strings read better unwrapped
+#   the rest of E/F — needs a further cleanup pass
+select = ["E9", "E402", "F82", "F401", "F541", "I", "W"]

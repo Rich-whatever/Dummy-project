@@ -1,0 +1,59 @@
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+.venv/
+venv/
+env/
+
+# ── Test / tool caches ──────────────────────────────────
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.benchmarks/
+
+# ── Node / frontend ─────────────────────────────────────
+node_modules/
+# (frontend/.gitignore additionally covers dist/, .vite/, logs)
+
+# ── Local vector databases (regenerated at runtime) ─────
+chroma_db/
+preference_chroma_db/
+vector_test_db/
+
+# ── Runtime state / user data (regenerated at runtime) ───
+# Session data is deliberately NOT tracked: these files regenerate on first
+# run, and committing them would publish private conversation history.
+uploads/
+expectations.json
+chat_history.json
+thread_state.json
+
+# Tracked on purpose — both hold no session data and double as working
+# defaults for a fresh clone:
+#   preferences.json (note-category skeleton), runtime_config.json (model
+#   settings), agent_general_behavior_guide.json (agent behaviour rules).
+
+# Local agent workspace (memory bank) — never publish this.
+.clinerules/
+
+# Agent filesystem sandbox — keep the directory, ignore its scratch contents.
+Dummy_Folder/*
+!Dummy_Folder/.gitkeep
+
+# ── Agent / tool noise ──────────────────────────────────
+.playwright-mcp/
+
+# ── Editor / OS ─────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Secrets ─────────────────────────────────────────────
+.env
+.env.*
+!.env.example

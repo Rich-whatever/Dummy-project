@@ -1,0 +1,9 @@
+{
+  "general": {},
+  "model": {
+    "model_name": "deepseek-v4-flash-vision-exp",
+    "temperature": 0.0,
+    "context_window": "500k",
+    "reasoning_effort": "low"
+  }
+}

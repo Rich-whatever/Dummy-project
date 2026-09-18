@@ -1,0 +1,40 @@
+# Runtime dependencies.
+#
+# MCP tool servers (filesystem, GitHub, Playwright, Google Calendar) are
+# launched over stdio via `npx` and therefore need Node.js, not Python packages.
+
+# ── Agent orchestration / LLM ───────────────────────────
+langchain>=0.3.0
+langchain-core>=0.3.0
+langgraph>=0.2.0
+langchain-community>=0.3.0
+openai
+
+# ── Embeddings ──────────────────────────────────────────
+langchain-huggingface>=0.2.0
+sentence-transformers>=3.0.0
+
+# ── Vector store ────────────────────────────────────────
+chromadb>=0.5.0
+langchain-chroma>=0.2.0
+
+# ── MCP tool integration ────────────────────────────────
+langchain-mcp-adapters
+
+# ── Web API ─────────────────────────────────────────────
+fastapi
+uvicorn[standard]
+
+# ── Configuration ───────────────────────────────────────
+python-dotenv
+
+# ── Data models ─────────────────────────────────────────
+pydantic>=2.0.0
+
+# ── Web fetch / search tools ────────────────────────────
+requests
+crawl4ai
+
+# ── Document parsing (file uploads) ─────────────────────
+docling
+docling-core

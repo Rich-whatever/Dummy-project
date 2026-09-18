@@ -1,0 +1,13 @@
+# Normalise line endings in the repository; check out with the platform default.
+* text=auto
+
+# Explicitly binary — never try to diff or convert these.
+*.bin binary
+*.sqlite3 binary
+*.docx binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary

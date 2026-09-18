@@ -1,0 +1,106 @@
+{
+  "states": {},
+  "note_categories": {
+    "Food & Drink Preference": {
+      "category_name": "Food & Drink Preference",
+      "notes": [],
+      "category_description": "What the user likes and dislikes eating and drinking."
+    },
+    "Travel & Trips": {
+      "category_name": "Travel & Trips",
+      "notes": [],
+      "category_description": "Places the user has visited, wants to visit, and trip plans."
+    },
+    "Hobbies & Interests": {
+      "category_name": "Hobbies & Interests",
+      "notes": [],
+      "category_description": "Pastimes and interests the user enjoys in their free time."
+    },
+    "Learning & Study": {
+      "category_name": "Learning & Study",
+      "notes": [],
+      "category_description": "How the user prefers to learn and study new subjects. Don't store short-term study task or assignment"
+    },
+    "Skills & Expertise": {
+      "category_name": "Skills & Expertise",
+      "notes": [],
+      "category_description": "Technical and non-technical abilities and knowledge levels the user possesses."
+    },
+    "Technology & Tools Preference": {
+      "category_name": "Technology & Tools Preference",
+      "notes": [],
+      "category_description": "Software, tools, and technologies the user prefers or uses."
+    },
+    "Career & Work": {
+      "category_name": "Career & Work",
+      "notes": [],
+      "category_description": "Career goals, ambitions, and professional projects the user pursues."
+    },
+    "Finance & Investing": {
+      "category_name": "Finance & Investing",
+      "notes": [],
+      "category_description": "The user's financial behaviors, goals, and investment preferences."
+    },
+    "Shopping Preference": {
+      "category_name": "Shopping Preference",
+      "notes": [],
+      "category_description": "What the user likes to buy and how they shop."
+    },
+    "Lifestyle & Routines": {
+      "category_name": "Lifestyle & Routines",
+      "notes": [],
+      "category_description": "Daily schedules, habits, and general life patterns of the user."
+    },
+    "Relationships & Family": {
+      "category_name": "Relationships & Family",
+      "notes": [],
+      "category_description": "Close connections, family, friends, and social bonds of the user."
+    },
+    "Personality & Behavioral Traits": {
+      "category_name": "Personality & Behavioral Traits",
+      "notes": [],
+      "category_description": "Stable personality characteristics and typical behavioral patterns of the user."
+    },
+    "Thoughts & Values & Beliefs": {
+      "category_name": "Thoughts & Values & Beliefs",
+      "notes": [],
+      "category_description": "Core values, guiding beliefs, and worldview principles the user holds."
+    },
+    "Political Views": {
+      "category_name": "Political Views",
+      "notes": [],
+      "category_description": "The user's political opinions and ideological leanings."
+    },
+    "Religion & Spirituality": {
+      "category_name": "Religion & Spirituality",
+      "notes": [],
+      "category_description": "The user's religious affiliations, beliefs, and spiritual practices."
+    },
+    "Cultural Background": {
+      "category_name": "Cultural Background",
+      "notes": [],
+      "category_description": "The user's cultural heritage, origins, and background context."
+    },
+    "Biographical Profile - Stable Basic Identity Facts": {
+      "category_name": "Biographical Profile - Stable Basic Identity Facts",
+      "notes": [],
+      "category_description": "Enduring identity facts like name, birthplace, age, and schooling."
+    },
+    "Transportation & Mobility": {
+      "category_name": "Transportation & Mobility",
+      "notes": [],
+      "category_description": "How the user travels day-to-day and transport-related preferences."
+    },
+    "Health & Physical Conditions": {
+      "category_name": "Health & Physical Conditions",
+      "notes": [],
+      "category_description": "Physical health status, conditions, and fitness-related information."
+    },
+    "Decision & Risk Tendencies": {
+      "category_name": "Decision & Risk Tendencies",
+      "notes": [],
+      "category_description": "How the user makes decisions and approaches risk-taking."
+    }
+  },
+  "expectations_file": "expectations.json"
+}
